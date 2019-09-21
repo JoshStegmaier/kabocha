@@ -1,6 +1,6 @@
-from distutils.core import setup
+import setuptools
 
-setup(
+setuptools.setup(
     name="kabocha",
     version="1.0",
     description="JSON error extension to tastypie ",
@@ -12,11 +12,11 @@ setup(
     license="MIT",
     packages=["kabocha"],
     classifiers=[
-        "Programming Language :: Python",
+        "Programming Language :: Python 3",
         "Topic :: Software Development :: Libraries :: Python Modules",
         "Framework :: Django",
         "Environment :: Web Environment",
-        "Programming Language :: Python :: 3.6",
-        "Programming Language :: Python :: 3.7",
+        "License :: OSI Approved :: MIT License",
     ],
+    python_requires='>=3.6',
 )
